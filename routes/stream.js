@@ -1,5 +1,5 @@
 import express from 'express';
-import youplex from '../services/providers/Youplex.js';
+import youplex from '../providers/Youplex.js';
 import torrentService from '../services/torrent.js';
 import ffmpeg from 'fluent-ffmpeg';
 import os from 'os';
